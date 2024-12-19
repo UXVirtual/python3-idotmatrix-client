@@ -1,1 +1,1 @@
-cmd /k "cd /d venv\Scripts & activate & cd ../../ & python -m pip install pyqt5 & python -m pip install pyinstaller & pyinstaller app.py -F -w -n idotmatrix -i idmc.ico --distpath ./dist & pyinstaller gui.py -F -w -n ""iDotMatrixController"" -i idmc.ico --distpath ./dist"
+cmd /k "cd /d venv\Scripts & activate & cd ../../ & python -m pip install pyqt5 & python -m pip install pyinstaller & pyinstaller app.py -F -w -n idotmatrix -i idmc.ico --distpath ./ & pyinstaller gui.py -F -w -n ""iDotMatrixController"" -i idmc.ico --distpath ./"
